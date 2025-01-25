@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DonationDrive</title>
+    <!--CSS link-->
+    <link rel="stylesheet" href="../page1/assets/css/style.css">
+    <!--JavaScript link-->
+    <script src="../page1/assets/js/scripts.js"> </script> 
+</head>
+<body>
+
+<!--Navbar-->
+<div class="main-div">
+    <div class = "navbar-right">
+        <ul class = "nav navbar-nav">
+            <li><a href = "../page1/index.html">Donate</a></li>
+            <li><a href = "../../index.html">Home</a></li>
+        </ul>
+    </div>
+    </div>
+    <!--Content of the website-->
+    <div class="content"> <image src = "../page1/assets/img/DONATION IMAGE.jpg"></image>
+        <div class = "title">
+        <h1>Donation Drive</h1>
+        </div>
+        <div class = "about">
+        <h4>Support our cause by making a donation!</h4>
+        <br>
+        <p>We are a non-profit organization that aims to help the less fortunate people in the community. We are currently accepting donations to help the people who are in need. Your donations will be a big help to the people who are in need.</p><br>
+        <label for="donationInput">Enter your donation amount: </label>
+        <input type="number" id="donationInput" placeholder="Enter amount here">
+        <button onclick="addDonation()">Donate</button>
+        </div>
+        <br>
+        <div class = "donation-history">
+        <h2>Total Donations: <span id="totalDonations">0</span></h2>
+        <h3>Donation History:</h3>
+        <ul id="donationHistory"></ul>
+        </div>
+    </div>
+
+    <!---Footer-->
+        <div class = "footer">
+            <p>Activity in AWD | submitted by: Joshua Ureta 202311379</p>
+        </div>
+    </body>
+</html>
+
